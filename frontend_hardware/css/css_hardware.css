@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Header CSS */
+
 header div#container__header{
     align-items: center;
     display: flex;
@@ -30,11 +32,12 @@ ul#menu--list li a{
     text-decoration: none;
 }
 
+/*Main de hardware */
 
 div.banner__mainImg img.mainImg{
-    height: 100vh;
+    height: 150px;
     margin: 0 45px;
-    width: 100vw;
+    width: 150px;
 
 
 }
