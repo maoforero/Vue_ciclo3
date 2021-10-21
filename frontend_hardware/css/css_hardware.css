@@ -15,29 +15,77 @@ header div#container__header{
     width: 100%;
 }
 
+/*nav bar*/
+
+div#container__icon{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#container__icon span{
+    margin-left: 25px;
+    font-style: italic;
+}
+
 ul#menu--list{
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-right: 85px;
 }
 
 ul#menu--list li{
-    
+    font-size: 25px;
 }
 
 ul#menu--list li a{
     color: black;
     margin: 50px;
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
 }
 
 /*Main de hardware */
 
-div.banner__mainImg img.mainImg{
-    height: 150px;
+/*banner princinpal*/
+
+div.container__banner{
+    background-image: url(https://www.howtogeek.com/wp-content/uploads/2021/05/rgb_header.jpg?height=200p&trim=2,2,2,2&crop=16:9);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 80vh;
     margin: 0 45px;
-    width: 150px;
-
-
+    width: 100%;
 }
+
+div.container__tittle__hardware{
+    color: whitesmoke;
+    padding-top: 370px;
+    padding-left: 88px;
+    width: 47%;
+}
+
+div.container__tittle__hardware h1{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+div.container__tittle__hardware p {
+    margin-top: 21px;
+    font-size: 23px;
+}
+
+div.container__tittle__hardware button{
+    background-color: transparent;
+    border:solid 3px whitesmoke;
+    border-radius: 25px;
+    color: whitesmoke;
+    height: 68px;
+    font-size: 23px;
+    margin-top: 41px;
+    width: 253px;
+}
+
