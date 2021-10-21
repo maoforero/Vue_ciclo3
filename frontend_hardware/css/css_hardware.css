@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header div#container__header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 55px;
+    position: -webkit-sticky;
+    width: 100%;
+}
+
+ul#menu--list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul#menu--list li{
+    
+}
+
+ul#menu--list li a{
+    color: black;
+    margin: 50px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+div.banner__mainImg img.mainImg{
+    height: 100vh;
+    margin: 0 45px;
+    width: 100vw;
+
+
+}
