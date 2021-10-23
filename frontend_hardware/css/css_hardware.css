@@ -8,14 +8,23 @@
     line-height: 1.6;
 }
 
+html{
+    background-color: #DDDDDD ;
+}
 
 /* Header CSS */
+header{
+    background-color: #DDDDDD;
+    border-radius: 0 0 9px 9px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 
 #container__header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px 65px 20px 65px;
 }
 
 #container__icon{
@@ -23,13 +32,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 20px 65px 20px 65px;
     width: 250px;
 }
+
+#container__icon span{
+    color: #000;
+    font-size: 21px;
+    font-style: italic;
+}
+
 
 #container__menu{
     align-items: center;
     display: flex;
     justify-content: center;
+    margin: 20px 65px 20px 65px;
 }
 
 #menu--list{
@@ -41,6 +59,7 @@
 
 #menu--list li a{
     color: #000;
+    font-size: 21px;
     margin-left: 25px;
     padding: 15px;
     text-decoration: none;
@@ -56,7 +75,6 @@
     height: 100vh;
     justify-content: center;
     padding:0 33px;
-    position: sticky;
 }
 
 .container__banner .container__tittle__hardware h1{
@@ -79,6 +97,9 @@
 
 
 /*main aside*/
+main{
+    margin: 10px 0 40px 0;
+}
 
 main .container__info{
     display: flex;
@@ -117,9 +138,10 @@ aside.container__info__filter ul li a{
 /* Footer */
 
 footer{
-    background-color: darkblue;
+    background-color: #125D98;
     display: flex;
     flex-direction: row;
+    flex-wrap: no-wrap;
     justify-content: space-around;
     height: 37vh;
     width: 100%;
