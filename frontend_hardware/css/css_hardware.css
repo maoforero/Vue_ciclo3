@@ -114,14 +114,75 @@ aside.container__info__filter ul li a{
     width: 70vw;
 }
 
-footer{
+/* Footer */
 
+footer{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 37vh;
+    width: 100%;
 }
 
 footer div.cointer__footer__description{
+    height: 35vh;
+    margin: 20px 0 10px 25px;
+    padding: 10px;
+    width: 25vw;
+}
 
+.footer__description--logo img{
+    height: 125px;
+    padding: 15px;
+    width: auto;
+}
+
+.footer__description__info{
+    margin-top: 15px;
+}
+
+.footer__description__info p{
+    color: blanchedalmond;
+    text-align: justify;
+    font-size: 18px;
+    width: 35vh;
 }
 
 footer div.cointer__footer__team{
-    
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    margin: 65px 0 10px 45px;
+    width: 15vw;
+}
+
+footer div.cointer__footer__team h6{
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+footer div.cointer__footer__team a{
+    color: blanchedalmond;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer div.cointer__footer__media{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin: 65px 0 10px 45px;
+    width: 15vw;
+}
+
+footer div.cointer__footer__media h6{
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+footer div.cointer__footer__media a{
+    color: blanchedalmond;
+    font-size: 18px;
+    text-decoration: none;
 }
