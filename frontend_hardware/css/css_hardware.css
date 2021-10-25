@@ -65,6 +65,10 @@ header{
     text-decoration: none;
 }
 
+#menu--list li a:hover {
+    color: #00A19D;
+}
+
 .container__banner{
     align-items: flex-start;
     background-image: url(../assest/desktop3.jpeg);
@@ -93,6 +97,10 @@ header{
     width: 178px;
 }
 
+.container__banner .container__tittle__hardware button:hover{
+    background-color: #FFF8E5;
+    color: #E05D5D;
+}
 
 /*main aside*/
 main{
