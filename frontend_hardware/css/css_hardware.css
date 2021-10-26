@@ -134,13 +134,44 @@ aside.container__info__filter ul li a{
 }
 
 .container__info__display{
-
+    align-items: center;
     border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 85px 0 10px 45px;
     padding: 15px;
     width: 70vw;
 }
 
+/* main */
+/* Contenedor Item*/
+
+.container__info--hardware{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 350px;
+}
+
+.info--hardware--tittle{
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.info--hardware--description{
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.info--hardware--bottonAdd{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
 /* Footer */
 
 footer{
@@ -214,3 +245,4 @@ footer div.cointer__footer__media a{
     font-size: 18px;
     text-decoration: none;
 }
+
