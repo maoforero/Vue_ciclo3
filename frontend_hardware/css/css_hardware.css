@@ -69,6 +69,17 @@ header{
     color: #00A19D;
 }
 
+.mainImg{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    opacity: 0.8;
+    width: 100%;
+}
+
+/*
 .container__banner{
     align-items: flex-start;
     background-image: url(../assest/desktop3.jpeg);
@@ -76,11 +87,11 @@ header{
     background-position:bottom;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     padding:0 33px;
 }
-
+*/
 .container__banner .container__tittle__hardware h1{
     color: blanchedalmond;
     font-size: 100px;
@@ -100,6 +111,18 @@ header{
 .container__banner .container__tittle__hardware button:hover{
     background-color: #FFF8E5;
     color: #E05D5D;
+}
+/*Overlay */
+
+div#overlay{
+    background-color: rgb(29, 196, 199);
+    height: 100%;
+    left: 0;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
 }
 
 /*main aside*/
