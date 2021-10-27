@@ -171,26 +171,31 @@ aside.container__info__filter ul li a{
 /* Contenedor Item*/
 
 .container__info--hardware{
-    border: 1px solid red;
-    border-radius: 10px;
+    border-radius: 33px;
+    background: linear-gradient(145deg, #c1c1c1, #e5e5e5);
+    box-shadow:  14px 14px 13px #747474,-14px -14px 13px #ffffff;
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    width: 350px;
+    height: 250px;
+    margin: 45px;
+    width: 250px;
 }
 
 .info--hardware--tittle{
-    border: 1px solid red;
+    margin: 10px;
+}
+
+.info--hardware--tittle{
     margin: 10px;
 }
 
 .info--hardware--description{
-    border: 1px solid green;
+
     margin: 10px;
 }
 
 .info--hardware--bottonAdd{
-    border: 1px solid blue;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
