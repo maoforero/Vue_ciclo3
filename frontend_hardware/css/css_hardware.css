@@ -171,13 +171,14 @@ main .container__info{
 
 .info--hardware--tittle h6{
     color: #000;
+    font-size: 20px;
     line-height: 10px;
     margin: 10px;
 }
 
-.info--hardware--description{
-
-    margin: 10px;
+.info--hardware--description > p{
+    font-size: 19px;
+    margin: 3px 20px;
 }
 
 .info--hardware--bottonAdd{
