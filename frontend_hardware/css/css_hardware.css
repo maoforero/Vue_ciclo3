@@ -162,6 +162,13 @@ main .container__info{
     margin: 10px;
 }
 
+
+.info--hardware--tittle > h5{
+    color: #000;
+    line-height: 10px;
+    margin: 10px;
+}
+
 .info--hardware--tittle h6{
     color: #000;
     line-height: 10px;
