@@ -65,7 +65,7 @@ header{
 }
 
 #menu--list li a:hover {
-    color: #00A19D;
+    color: #2EE59D;
 }
 
 .mainImg{
@@ -189,6 +189,7 @@ main .container__info{
 }
 
 .info--hardware--description > p{
+    color:#26013f;
     font-size: 19px;
     margin: 3px 20px;
 }
@@ -205,7 +206,7 @@ button.button__agregar{
     font-size: 17px;
     padding: 1em 2.7em;
     font-weight: 500;
-    background: #1F2937;
+    background: #400169;
     color: white;
     border: none;
     position: relative;
@@ -232,7 +233,7 @@ button.button__agregar{
 .transition {
     transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
     transition-duration: 500ms;
-    background-color: rgba(16, 185, 129, 0.6);
+    background-color: rgba(46, 229, 157, 0.6);
     border-radius: 9999px;
     width: 0;
     height: 0;
